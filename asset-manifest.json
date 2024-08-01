@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/fitness/static/css/main.d2e35aa5.css",
-    "main.js": "/fitness/static/js/main.1353b0a4.js",
+    "main.css": "/fitness/static/css/main.a9d495a7.css",
+    "main.js": "/fitness/static/js/main.b81b54f4.js",
     "static/js/453.8c241b6f.chunk.js": "/fitness/static/js/453.8c241b6f.chunk.js",
-    "static/media/icon1.jpg": "/fitness/static/media/icon1.34c492fd8526324fafac.jpg",
-    "static/media/icon2.jpg": "/fitness/static/media/icon2.518a67016fa9057fd0de.jpg",
-    "static/media/icon3.jpg": "/fitness/static/media/icon3.c64b1147210575c70fa0.jpg",
     "static/media/gymfondo.jpg": "/fitness/static/media/gymfondo.cd121435337b75faeb55.jpg",
-    "static/media/icon5.jpg": "/fitness/static/media/icon5.b7b708dc4b48f771ddc0.jpg",
+    "static/media/icon5.jpg": "/fitness/static/media/icon5.7d3f3816d304e0a5579d.jpg",
     "static/media/icon6.jpg": "/fitness/static/media/icon6.4fb787ba89c664ef7a44.jpg",
+    "static/media/icon2.jpg": "/fitness/static/media/icon2.b8bb802539e77933d234.jpg",
+    "static/media/icon1.jpg": "/fitness/static/media/icon1.2f26971a87b3a70aa0fc.jpg",
+    "static/media/icon3.jpg": "/fitness/static/media/icon3.63c82f4ef90140afc3b6.jpg",
     "static/media/icon4.jpg": "/fitness/static/media/icon4.4467f02fd5bb6d385dc3.jpg",
     "static/media/edu.PNG": "/fitness/static/media/edu.cd9266c54ea76edaeca1.PNG",
     "static/media/2.jpg": "/fitness/static/media/2.afc05f3bb0804fe57cac.jpg",
     "static/media/1.jpg": "/fitness/static/media/1.27a76375108812f09cf8.jpg",
     "static/media/3.jpg": "/fitness/static/media/3.c7e42de458d25c0f8856.jpg",
     "index.html": "/fitness/index.html",
-    "main.d2e35aa5.css.map": "/fitness/static/css/main.d2e35aa5.css.map",
-    "main.1353b0a4.js.map": "/fitness/static/js/main.1353b0a4.js.map",
+    "main.a9d495a7.css.map": "/fitness/static/css/main.a9d495a7.css.map",
+    "main.b81b54f4.js.map": "/fitness/static/js/main.b81b54f4.js.map",
     "453.8c241b6f.chunk.js.map": "/fitness/static/js/453.8c241b6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2e35aa5.css",
-    "static/js/main.1353b0a4.js"
+    "static/css/main.a9d495a7.css",
+    "static/js/main.b81b54f4.js"
   ]
 }
