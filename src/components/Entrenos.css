@@ -124,6 +124,7 @@
 
   .Entrenos-text h3 {
     font-size: 1.2rem; /* Tamaño de fuente más pequeño en móvil */
+    text-align: center;
   }
 
   .Entrenos-text p {
