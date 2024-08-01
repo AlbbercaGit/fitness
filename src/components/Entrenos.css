@@ -129,5 +129,6 @@
 
   .Entrenos-text p {
     font-size: 0.9rem; /* Tamaño de fuente más pequeño en móvil */
+    text-align: center;
   }
 }
