@@ -1,0 +1,155 @@
+/* Estilos generales del header */
+header {
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0; /* Ajusta al borde superior de la ventana */
+  left: 0; /* Ajusta al borde izquierdo de la ventana */
+  width: 100%; /* Ancho completo de la ventana */
+  background-color: #FFFFFF; /* Fondo blanco */
+  display: flex; /* Usa flexbox para el diseño */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  padding: 10px 0; /* Espaciado interno para el header */
+
+  border-top: none; /* Borde superior */
+  border-bottom: 2px solid #5a5757a8; /* Borde inferior */
+  border-left: none; /* Sin borde izquierdo */
+  border-right: none; /* Sin borde derecho */
+}
+
+nav {
+  width: 80%;
+  padding-right: 5%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1A1A1A; /* Color del enlace */
+  font-weight: bold;
+}
+
+.logo-icon {
+  height: 60px; /* Ajusta el tamaño según tu ícono */
+}
+
+/* Consultas de medios para dispositivos móviles */
+@media (max-width: 768px) {
+  header {
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    flex-direction: column; /* Cambia a disposición en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    padding: 0px; /* Ajusta el padding para móviles */
+    text-align: center; /* Centra el texto dentro del header */
+    position: relative;
+  }
+
+  nav {
+    width: 100%; /* Ajusta el ancho del nav al 100% */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    padding-right: 0px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column; /* Cambia a disposición en columna */
+    align-items: center; /* Centra los enlaces horizontalmente */
+    margin-top: 20px; 
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente para el texto */
+  }
+
+  .nav-links li {
+    order: 1; /* Orden por defecto para los enlaces */
+  }
+
+  .nav-links li:first-child {
+    display: none; /* Oculta el enlace "Quién Soy" en móviles */
+  }
+
+  .logo {
+    margin-bottom: 20px; /* Espacio inferior para el logo */
+  }
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+

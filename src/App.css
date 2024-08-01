@@ -1,0 +1,146 @@
+
+
+.App {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.App-header {
+  /* background-color: #F5F5F5; */
+  background-color: #FFFFFF;
+
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .App-header .scroll-nav .scroll-icon {
+  display: none;
+} */
+
+/* Define la animación de aparición y desaparición */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Inicialmente el elemento es invisible y se le aplica la animación */
+.scroll-nav {
+  /* opacity: 0; */
+  animation: fadeInOut 1s ease-in-out ; /* Ajusta la duración, función de tiempo y el número de repeticiones según prefieras */
+}
+
+
+
+
+
+
+.Hero {
+ background-image: url('./components/img/gymfondo.jpg');
+ background-position: center;
+ opacity: 90%;
+
+ 
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: flex-end; /* Alinea los elementos en la parte inferior */
+  align-items: flex-start; /* Alinea los elementos en el lado izquierdo */
+  padding: 20px; /* Ajusta el padding según el diseño */
+  background-color: #f5f5f5; /* Color de fondo opcional */
+  height: 45vh; /* Ocupa toda la altura de la ventana */
+  box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño total */
+  text-align: left;
+
+  border-top: none; /* Borde superior */
+  border-bottom: 2px solid #2b2929a8; /* Borde inferior */
+  border-left: none; /* Sin borde izquierdo */
+  border-right: none; /* Sin borde derecho */
+
+}
+
+
+
+.Hero h1 {
+  margin: 0; /* Elimina el margen por defecto del h1 */
+  font-size: 3.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: #F5F5F5; /* Color del texto, ajusta según el diseño */
+}
+
+.Hero p {
+  margin: 10px 0 0 0; /* Espaciado entre el p y el h1 */
+  font-size: 1.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: #F5F5F5; /* Color del texto, ajusta según el diseño */
+  width: 70%;
+  display: flex;
+
+  align-items: flex-start; /* Alinea los elementos en el lado izquierdo */
+
+}
+
+/* Consultas de medios para ajustar el diseño en dispositivos móviles */
+/* @media (max-width: 768px) {
+  .Hero {
+    height: 100vh;
+    opacity: 100%;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    padding: 10px; 
+  }
+
+  .Hero h1 {
+    font-size: 2.5rem; 
+  }
+
+  .Hero p {
+    font-size: 1rem;
+    width: 90%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero {
+    padding: 5px;
+  }
+
+  .Hero h1 {
+    font-size: 1.8rem; 
+    
+  }
+
+  .Hero p {
+    font-size: 1rem; 
+    width: 100%; 
+  }
+} */
+
+@media (max-width: 768px) {
+  .Hero {
+    display: none;
+  }
+  .Hero h1 {
+    font-size: 1.8rem; 
+    
+  }
+
+  .Hero p {
+    font-size: 1rem; 
+    width: 100%; 
+  }
+  
+}
+
+
+
+

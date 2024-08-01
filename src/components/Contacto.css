@@ -1,0 +1,136 @@
+.Contacto {
+    padding: 40px;
+    background-color: #ffffff; /* Fondo de la sección */
+    color: #333; /* Color del texto */
+  }
+  
+  .Contacto-header {
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 1350px; /* Ajusta este valor al ancho deseado */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .Contacto-header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .Contacto-header p {
+    font-size: 1.2rem;
+    color: #666; /* Color del subtítulo */
+  }
+  
+  .Contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 30px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra las secciones en la cuadrícula */
+    max-width: 1400px; /* Ajusta este valor al ancho deseado */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Contacto-item {
+    background-color: #fff; /* Fondo blanco para cada contacto */
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 1px #6666663a;
+    justify-self: center;
+    flex: 1 1 80%; /* Ancho del 80% del contenedor */
+    max-width: 40%; /* Máximo ancho del 80% del contenedor */
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .Contacto-item h2 {
+    text-align: center;
+  }
+  
+  /* Ajusta el contenedor para centrar los items */
+  .Contacto-grid {
+    display: flex;
+    justify-content: center; /* Centra los items dentro del contenedor */
+  }
+  
+  .Contacto-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el ícono y el texto */
+  }
+  
+  .Contacto-icon {
+    flex-shrink: 0;
+  }
+  
+  .Contacto-icon img {
+    width: 50px; /* Tamaño del ícono */
+    height: 50px; /* Tamaño del ícono */
+    border-radius: 50%; /* Hace que el ícono sea redondo */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+  }
+  
+  .Contacto-text p {
+    margin: 0; /* Márgenes para el texto */
+    font-size: 1rem;
+  }
+  
+  /* Media Queries para Responsividad */
+  
+  /* Para dispositivos con un ancho máximo de 768px */
+  @media (max-width: 768px) {
+    .Contacto-grid {
+      grid-template-columns: 1fr; /* Una columna en lugar de tres */
+      gap: 20px;
+    }
+  
+    .Contacto-item {
+      max-width: 80%; /* Asegura que el ancho máximo sea 80% */
+    }
+  }
+  
+  /* Para dispositivos con un ancho máximo de 480px (iPhone 11) */
+  @media (max-width: 480px) {
+    .Contacto {
+      padding: 20px; /* Ajuste del padding para pantallas más pequeñas */
+    }
+  
+    .Contacto-header h1 {
+      font-size: 1.5rem; /* Tamaño de fuente más pequeño */
+    }
+  
+    .Contacto-header p {
+      font-size: 1rem; /* Tamaño de fuente más pequeño */
+    }
+  
+    .Contacto-grid {
+      display: flex;
+      flex-direction: column; /* Coloca los items en una columna */
+      gap: 20px;
+    }
+  
+    .Contacto-item {
+      max-width: 100%; /* Asegura que el ancho máximo sea 100% */
+      padding: 10px; /* Reduce el padding para pantallas más pequeñas */
+    }
+  
+    .Contacto-content {
+      flex-direction: column; /* Coloca el ícono y el texto en una columna */
+      align-items: center; /* Centra el contenido */
+      gap: 10px;
+    }
+  
+    .Contacto-icon img {
+      width: 40px; /* Tamaño más pequeño para el ícono */
+      height: 40px; /* Tamaño más pequeño para el ícono */
+    }
+  
+    .Contacto-text p {
+      font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+      text-align: center; /* Centra el texto */
+    }
+  }
+  

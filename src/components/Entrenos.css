@@ -1,0 +1,132 @@
+.Entrenos {
+  padding: 50px;
+  background-color: #ffffff; /* Fondo de la sección */
+  color: #333; /* Color del texto */
+  border-top: 2px solid #5a5757a8; /* Borde superior */
+  border-bottom: 2px solid #5a5757a8; /* Borde inferior */
+  border-left: none; /* Sin borde izquierdo */
+  border-right: none; /* Sin borde derecho */
+}
+
+.Entrenos-header {
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 1275px; /* Ajusta este valor al ancho deseado */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Entrenos-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Entrenos-header p {
+  font-size: 1.2rem;
+  color: #666; /* Color del subtítulo */
+}
+
+.Entrenos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  gap: 50px; /* Espacio entre los elementos */
+  max-width: 1250px; /* Ajusta este valor al ancho deseado */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Entrenos-item {
+  background-color: #fff; /* Fondo blanco para cada ítem */
+  padding: 20px;
+  border-radius: 8px;
+  border: solid 1px #6666663a;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido dentro del div */
+  position: relative; /* Para el uso de z-index */
+  transition: filter 1s ease; /* Transición suave para el efecto blur */
+}
+
+/* Imagen de tamaño ajustado al contenedor */
+.Entrenos-item img {
+  width: 90%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+.Entrenos-text {
+  margin-top: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.Entrenos-text h3 {
+  font-size: 1.5rem; /* Tamaño del título ajustado */
+  margin: 0 0 10px 0; /* Márgenes para el título */
+  /* tex */
+}
+
+.Entrenos-text p {
+  font-size: 1rem;
+  margin: 0; /* Márgenes para el texto */
+}
+
+.Entrenos-container {
+  display: flex;
+}
+
+.Entrenos-item {
+  filter: none; /* Sin desenfoque por defecto */
+  transition: filter 1s ease; /* Transición suave para el filtro */
+  margin: 5px;
+}
+
+/* Aplicar desenfoque a los elementos no hovered */
+.Entrenos-item.blur {
+  filter: blur(2px);
+}
+
+
+/* Estilos específicos para móviles */
+@media (max-width: 768px) {
+  .Entrenos {
+    padding: 20px;
+  }
+
+  .Entrenos-header {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%; /* Ancho completo en móvil */
+  }
+
+  .Entrenos-header h1 {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Entrenos-header p {
+    font-size: 1rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Entrenos-grid {
+    grid-template-columns: 1fr; /* Una columna en móvil */
+    gap: 20px; /* Menor espacio entre elementos en móvil */
+    max-width: 100%; /* Ancho completo en móvil */
+  }
+
+  .Entrenos-item {
+    padding: 15px; /* Menor padding en móvil */
+    margin: 10px 0; /* Márgenes ajustados en móvil */
+  }
+
+  .Entrenos-item img {
+    width: 100%; /* La imagen ocupa todo el ancho en móvil */
+  }
+
+  .Entrenos-text h3 {
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Entrenos-text p {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+}

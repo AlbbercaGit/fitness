@@ -1,0 +1,134 @@
+.Tarifas {
+  padding: 40px;
+  background-color: #f4f4f4; /* Fondo de la sección */
+  color: #333; /* Color del texto */
+  /* border-top: 2px solid #5a5757a8; Borde superior */
+  border-bottom: 2px solid #5a5757a8; /* Borde inferior */
+  border-left: none; /* Sin borde izquierdo */
+  border-right: none; /* Sin borde derecho */
+}
+
+.Tarifas-header {
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 1275px; /* Ajusta este valor al ancho deseado */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tarifas-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Tarifas-header p {
+  font-size: 1.2rem;
+  color: #666; /* Color del subtítulo */
+}
+
+.Tarifas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  gap: 60px; /* Espacio entre los elementos */
+  max-width: 1250px; /* Ajusta este valor al ancho deseado */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tarifas-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: solid 1px #6666663a;
+  box-sizing: border-box;
+  text-align: left;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center; 
+  position: relative; 
+}
+
+.Tarifas-price {
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px;
+}
+
+.Tarifas-price h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.Tarifas-price p {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.Tarifas-info {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.Tarifas-features {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.Tarifas-features li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* Estilos específicos para móviles */
+@media (max-width: 768px) {
+  .Tarifas {
+    padding: 20px;
+  }
+
+  .Tarifas-header {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%; /* Ancho completo en móvil */
+  }
+
+  .Tarifas-header h1 {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Tarifas-header p {
+    font-size: 1rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Tarifas-grid {
+    grid-template-columns: 1fr; /* Una columna en móvil */
+    gap: 20px; /* Menor espacio entre elementos en móvil */
+    max-width: 100%; /* Ancho completo en móvil */
+  }
+
+  .Tarifas-item {
+    padding: 15px; /* Menor padding en móvil */
+    margin: 10px 0; /* Márgenes ajustados en móvil */
+  }
+
+  .Tarifas-price h1 {
+    font-size: 2rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Tarifas-price p {
+    font-size: 1rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Tarifas-info {
+    font-size: 1rem; /* Tamaño de fuente más pequeño en móvil */
+  }
+
+  .Tarifas-features {
+    padding-left: 15px; /* Menor padding en móvil */
+  }
+
+  .Tarifas-features li {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño en móvil */
+    margin-left: 5px; /* Menor margen izquierdo en móvil */
+  }
+}
