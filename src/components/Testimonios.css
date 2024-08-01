@@ -86,6 +86,9 @@
 
 /* Oculta los elementos a partir del cuarto en dispositivos móviles */
 @media (max-width: 768px) {
+  .Testimonios-header {
+text-align: center;
+  }
   .Testimonios-grid {
     grid-template-columns: repeat(2, 1fr); /* Dos columnas en lugar de tres */
     gap: 20px;
