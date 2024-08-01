@@ -1,8 +1,7 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import "./Header.css"; // Si deseas estilos específicos para el Header
-import logo from "./img/fitness.png"; // Importa la imagen aquí
-import logo2 from "./img/gym.png"; // Importa la imagen aquí
+import logo from "./img/gym.png"; // Importa la imagen aquí
+import logo2 from "./img/gymwhite.png"; // Importa la imagen aquí
 
 function Header() {
   const handleSmoothScroll = (event, targetId) => {
